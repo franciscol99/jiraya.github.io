@@ -1,7 +1,8 @@
 {
-  "version": "1.08",
+  "version": "1.09",
   "description": "Adicione componentes para facilitar a padronização do uso no dia-a-dia do Jira.",
   "link": "https://github.com/franciscol99/jiraya",
   "force": true
 }
+
 
