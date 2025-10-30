@@ -1,107 +1,50 @@
-<h1 align="center">🌀 JIRAYA SYSTEM</h1>
+# Jiraya Plugin para Jira
 
-<p align="center">
-  <b>Automatização, Produtividade e Padrões de Excelência</b><br>
-  <sub>Gerencie, padronize e otimize seus fluxos com estilo ninja 🥷</sub>
-</p>
+## Como instalar a extensão no Chrome (Modo Desenvolvedor)
 
----
-
-## 🚀 Funcionalidades Principais
-
-> Abaixo estão as funções já implementadas e ativas no sistema **JIRAYA**  
-> Todas foram desenvolvidas com foco em **usabilidade**, **eficiência** e **visibilidade**.
-
----
-
-### 🧩 Issue / Editar Issue
-
-✅ **Campos de texto inteligentes**  
-- Redimensionam automaticamente conforme o conteúdo cresce.  
-- Limite máximo definido, evitando poluição visual.  
-
-✅ **Modais dinâmicos e responsivos**  
-- Padrões: `Maximizar`, `Minimizar`, `Fullscreen` e `Fechar`.  
-
-✅ **Barra de tarefas personalizada**  
-- Com funções exclusivas para navegação e ações rápidas.  
-
-✅ **Modelos / Templates de comentários e respostas**  
-- Padronização automática dos processos de resposta.  
-
-✅ **Templates personalizados**  
-- Exemplo: *Checklist de Qualidade*.  
-- Modal de template pode ser minimizado sem perder contexto da issue.  
-
-✅ **Botão “Copiar” em blocos de código**  
-- Facilita cópia de conteúdo extenso diretamente nos comentários.  
-
-✅ **Informativos personalizados**  
-- Campos como “Causa da Ocorrência” exibem dicas dinâmicas.  
-
-✅ **Comentários com Flag fixado (pinned)**  
-- Fixados no topo das atividades.  
-- Botão de atalho leva diretamente aos comentários fixados.  
+1. **Baixe o pacote da extensão**
+   - Certifique-se de ter todos os arquivos do plugin em uma pasta local.
+2. **Abra o Chrome e acesse:**
+   - `chrome://extensions/`
+3. **Ative o modo desenvolvedor**
+   - No canto superior direito da página de extensões, ative a chave "Modo do desenvolvedor".
+4. **Clique em "Carregar sem compactação"**
+   - Selecione a pasta onde estão os arquivos do plugin Jiraya.
+5. **Pronto!**
+   - A extensão estará ativa e pronta para uso no Jira.
 
 ---
 
-### 🕒 Folha de Horas
+# Funcionalidades do Jiraya Plugin
 
-✅ **Visualização Inteligente de Horas**
-- Cores automáticas baseadas na média do colaborador.
+## Issue / Editar Issue
+- ✅ **Campos de texto redimensionáveis**: Facilita a visualização e edição, expandindo conforme o texto cresce.
+- ✅ **Modais redimensionados**: Maximizar, Minimizar, Fullscreen e Fechar para melhor experiência.
+- ✅ **Barra de tarefas personalizada**: Modelos e funções customizadas para agilizar o trabalho.
+- ✅ **Modelos/Templates de comentários**: Respostas padronizadas e interativas, inclusive para flags.
+- ✅ **Templates personalizados**: Modal de template pode ser minimizado para consultar informações da issue.
+- ✅ **Botão COPIAR em blocos de código**: Facilita copiar conteúdos grandes dos comentários.
+- ✅ **Informativos personalizados**: Exemplo: campo "Causa Ocorrência" com instruções e exemplos.
+- ✅ **Imagens otimizadas**: Tamanho limitado, borda e alinhamento central para melhor visualização.
+- ✅ **Comentários com Flag fixados**: Sempre visíveis no topo das atividades, com botão de acesso rápido.
+- ✅ **Download de comentários com flag**: Baixe todos de uma vez ou individualmente.
+- ✅ **Adição de templates em comentários**: Flexibilidade para personalizar respostas.
 
-✅ **Configurações Avançadas**
-- Ajuste de limites diários direto pela tela de configuração.
+## Folha de Horas
+- ✅ **Pintura das horas por média**: Visualização rápida do desempenho.
+- ✅ **Tela de configuração**: Ajuste dos limites diários de horas.
+- ✅ **Exportação de dados**: Relatório, Resumo, CSV e JSON.
+- ✅ **Estatísticas e análises em tela**: Performance, produtividade, distribuição de horas, médias e alertas.
+- ✅ **Configuração de hora mínima/média/máxima**: Personalize conforme a necessidade da equipe.
 
-✅ **Exportações**
-- 📄 Relatório completo  
-- 📊 Resumo  
-- 🧾 CSV  
-- 🧠 JSON  
-
-✅ **Análises e Estatísticas em Tela**
-- Estatísticas gerais  
-- Informações do período  
-- Performance e Produtividade  
-- Distribuição de horas por dia  
-- Alertas e observações  
-- Médias por colaborador e por dia útil  
-
----
-
-## ⚙️ Status do Sistema
-
-| Módulo | Status | Observação |
-|:-------|:-------:|:-----------|
-| Issue / Editar Issue | ✅ Concluído | Todos os modais e campos ativos |
-| Folha de Horas | ✅ Concluído | Exportações e análises completas |
-| Barra de Tarefas | ✅ Concluído | Com funções customizadas |
-| Templates / Modelos | ✅ Concluído | Padronização total |
-| Botão Copiar | ✅ Concluído | Disponível em blocos de código |
+## Sistema
+- ✅ **Checagem automática de atualização**: Sempre mantenha sua extensão atualizada.
 
 ---
 
-## 🧠 Filosofia do Projeto
-
-> **“Eficiência é eliminar o que não importa, para que o que realmente importa brilhe.”**
-
-O **JIRAYA** foi criado com foco em:
-- 💡 **Experiência do Usuário**
-- ⚡ **Performance**
-- 🧰 **Automação de tarefas**
-- 🎯 **Padronização e Qualidade**
+## Dúvidas ou sugestões?
+Entre em contato pelo e-mail: francisco.ben@totvs.com.br
 
 ---
 
-## 🧾 Créditos
-
-**Desenvolvimento:** franciscol99
-**Versão:** 1.07 
-**Última atualização:** Outubro / 2025  
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen?style=for-the-badge" alt="Status: Concluído">
-  <img src="https://img.shields.io/badge/JIRAYA-SYSTEM-blueviolet?style=for-the-badge" alt="Jiraya System">
-</p>
+**Jiraya Plugin** é uma extensão para Jira desenvolvida para facilitar o dia a dia de quem trabalha com gestão de demandas, comentários e folha de horas, tornando o processo mais ágil, padronizado e visualmente agradável.
