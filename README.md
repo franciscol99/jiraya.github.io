@@ -1,50 +1,96 @@
-# Jiraya Plugin para Jira
+# 🚀 Plugin JRA – Extensão para produtividade e usabilidade no sistema Jiraya (JRA)
 
-## Como instalar a extensão no Chrome (Modo Desenvolvedor)
+Este plugin adiciona diversas melhorias visuais e funcionais ao sistema JRA, tornando o fluxo de trabalho mais ágil, organizado e fácil de usar.
 
-1. **Baixe o pacote da extensão**
-   - Certifique-se de ter todos os arquivos do plugin em uma pasta local.
-2. **Abra o Chrome e acesse:**
-   - `chrome://extensions/`
-3. **Ative o modo desenvolvedor**
-   - No canto superior direito da página de extensões, ative a chave "Modo do desenvolvedor".
-4. **Clique em "Carregar sem compactação"**
-   - Selecione a pasta onde estão os arquivos do plugin Jiraya.
-5. **Pronto!**
-   - A extensão estará ativa e pronta para uso no Jira.
+> ⚠️ Esta é uma extensão de desenvolvedor. Ela **não está publicada na Chrome Web Store** e precisa ser instalada manualmente.
 
 ---
 
-# Funcionalidades do Jiraya Plugin
+## 🧠 Como instalar a extensão no Chrome (modo desenvolvedor)
 
-## Issue / Editar Issue
-- ✅ **Campos de texto redimensionáveis**: Facilita a visualização e edição, expandindo conforme o texto cresce.
-- ✅ **Modais redimensionados**: Maximizar, Minimizar, Fullscreen e Fechar para melhor experiência.
-- ✅ **Barra de tarefas personalizada**: Modelos e funções customizadas para agilizar o trabalho.
-- ✅ **Modelos/Templates de comentários**: Respostas padronizadas e interativas, inclusive para flags.
-- ✅ **Templates personalizados**: Modal de template pode ser minimizado para consultar informações da issue.
-- ✅ **Botão COPIAR em blocos de código**: Facilita copiar conteúdos grandes dos comentários.
-- ✅ **Informativos personalizados**: Exemplo: campo "Causa Ocorrência" com instruções e exemplos.
-- ✅ **Imagens otimizadas**: Tamanho limitado, borda e alinhamento central para melhor visualização.
-- ✅ **Comentários com Flag fixados**: Sempre visíveis no topo das atividades, com botão de acesso rápido.
-- ✅ **Download de comentários com flag**: Baixe todos de uma vez ou individualmente.
-- ✅ **Adição de templates em comentários**: Flexibilidade para personalizar respostas.
+1. Abra o Google Chrome
+2. Acesse o menu: chrome://extensions/
+3. Ative o modo desenvolvedor  
+✅ Clique no botão **"Modo do desenvolvedor / Developer Mode"**
+4. Clique em **"Carregar sem compactação / Load unpacked"**
+5. Selecione a pasta do plugin no seu computador
+6. A extensão será carregada e ativada
 
-## Folha de Horas
-- ✅ **Pintura das horas por média**: Visualização rápida do desempenho.
-- ✅ **Tela de configuração**: Ajuste dos limites diários de horas.
-- ✅ **Exportação de dados**: Relatório, Resumo, CSV e JSON.
-- ✅ **Estatísticas e análises em tela**: Performance, produtividade, distribuição de horas, médias e alertas.
-- ✅ **Configuração de hora mínima/média/máxima**: Personalize conforme a necessidade da equipe.
-
-## Sistema
-- ✅ **Checagem automática de atualização**: Sempre mantenha sua extensão atualizada.
+> Sempre que atualizar os arquivos do plugin, volte na área de extensões e clique no botão **Atualizar/Reload** 🔄
 
 ---
 
-## Dúvidas ou sugestões?
-Entre em contato pelo e-mail: francisco.ben@totvs.com.br
+## ✨ Funcionalidades
+
+### 📝 Issue / Editar Issue
+
+| Função | Status | Descrição |
+|--------|--------|-----------|
+| Campos de texto automáticos | ✅ | Redimensionam conforme o conteúdo |
+| Modais ajustáveis | ✅ | Maximize, minimize, fullscreen e fechar |
+| Barra de tarefas personalizada | ✅ | Funções extras para o JRA |
+| Templates de comentários | ✅ | Modelos prontos e editáveis |
+| Templates interativos | ✅ | Campo guiado para preencher respostas |
+| Templates de flags | ✅ | Inclui modal minimizável para ver issue |
+| Botão **Copiar código** | ✅ | Em blocos de código no comentário |
+| Tooltips informativos | ✅ | Dicas visuais em campos como “Causa Ocorrência” |
+| Imagens redimensionadas | ✅ | Ajustadas a 90% do container, centralizadas |
+| Flag fixada no topo | ✅ | Comentários importantes sempre visíveis |
+| Botão “Ir para flags fixadas” | ✅ | Navegação rápida para comentários com flag |
+| Download de comentários com flags | ✅ | Exporta todos os comentários sinalizados |
+| Adicionar novos templates | ✅ | Flexibilidade total |
+| Download de comentário individual | ✅ | Baixe apenas o que precisa |
 
 ---
 
-**Jiraya Plugin** é uma extensão para Jira desenvolvida para facilitar o dia a dia de quem trabalha com gestão de demandas, comentários e folha de horas, tornando o processo mais ágil, padronizado e visualmente agradável.
+### ⏱️ Folha de Horas
+
+| Função | Status | Descrição |
+|--------|--------|-----------|
+| Cor por média diária | ✅ | Indicação visual do desempenho |
+| Copiar nome do colaborador | ⚠️ Desativado | Função futura |
+| Configuração de limites | ✅ | Ajuste de limites diários |
+| Exportações | ✅ | Relatório, Resumo, CSV, JSON |
+| Estatísticas na tela | ✅ | Indicadores variados |
+| Informações do período | ✅ | Visão ampla do desempenho |
+| Análises diversas | ✅ | Performance, produtividade e distribuição |
+| Alertas | ✅ | Notificações úteis |
+| Média por colaborador/dia útil | ✅ | Cálculos automáticos |
+| Configuração de mín./média/máx. | ✅ | Controle completo |
+
+---
+
+### 🛠️ Sistema
+
+| Função | Status |
+|--------|--------|
+| Checagem de atualização automática | ✅ |
+
+---
+
+## 📎 Dicas de uso
+
+- Sempre mantenha a pasta do plugin organizada — isso facilita atualizações
+- Caso algo não carregue:  
+→ Desabilite e habilite a extensão novamente  
+→ Clique no botão **Recarregar/Reload**
+- Sugestões e bugs? Abra uma issue no repositório 😊
+
+---
+
+## 🤝 Contribuindo
+
+Pull requests são bem-vindos!  
+Se quiser sugerir algo, basta abrir uma issue com sua ideia ✨
+
+---
+
+## 📄 Licença
+
+Projeto de uso interno.  
+Reprodução não autorizada sem permissão.
+
+---
+
+🛠 Desenvolvido para facilitar o dia a dia no JRA 💙  
+Qualquer dúvida ou sugestão, estou por aqui!
