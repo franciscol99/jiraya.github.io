@@ -3,7 +3,7 @@
   "description": "<li>Novas templates</li><li>Correções de bugs</li><li>Melhorias de desempenho</li><li>Novas templates</li><li>Correções de bugs</li><li>Melhorias de desempenho</li><li>Novas templates</li><li>Correções de bugs</li><li>Melhorias de desempenho</li><li>Novas templates</li><li>Correções de bugs</li><li>Melhorias de desempenho</li>",
   "link": "https://github.com/franciscol99/jiraya",
   "linkDocumentacao": "https://github.com/franciscol99/jiraya.github.io/tree/main",
-  "force": false,
-  "callback": "alert('Jiraya Plugin atualizado para a versão 1.08');"
+  "force": false
 }
+
 
