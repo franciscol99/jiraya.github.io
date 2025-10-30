@@ -1,4 +1,4 @@
-# 🚀 Plugin Jiraya – Extensão para produtividade e usabilidade no sistema Jira
+# 🌀 Plugin Jiraya – Extensão para produtividade e usabilidade no sistema Jira
 
 Este plugin adiciona diversas melhorias visuais e funcionais ao sistema Jira, tornando o fluxo de trabalho mais ágil, organizado e fácil de usar.
 
@@ -20,7 +20,7 @@ Este plugin adiciona diversas melhorias visuais e funcionais ao sistema Jira, to
 
 ---
 
-## ✨ Funcionalidades
+## 🚀 Funcionalidades
 
 ### 📝 Issue / Editar Issue
 
