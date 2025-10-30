@@ -1,6 +1,6 @@
-# 🚀 Plugin JRA – Extensão para produtividade e usabilidade no sistema Jiraya (JRA)
+# 🚀 Plugin Jiraya – Extensão para produtividade e usabilidade no sistema Jira
 
-Este plugin adiciona diversas melhorias visuais e funcionais ao sistema JRA, tornando o fluxo de trabalho mais ágil, organizado e fácil de usar.
+Este plugin adiciona diversas melhorias visuais e funcionais ao sistema Jira, tornando o fluxo de trabalho mais ágil, organizado e fácil de usar.
 
 > ⚠️ Esta é uma extensão de desenvolvedor. Ela **não está publicada na Chrome Web Store** e precisa ser instalada manualmente.
 
@@ -28,7 +28,7 @@ Este plugin adiciona diversas melhorias visuais e funcionais ao sistema JRA, tor
 |--------|--------|-----------|
 | Campos de texto automáticos | ✅ | Redimensionam conforme o conteúdo |
 | Modais ajustáveis | ✅ | Maximize, minimize, fullscreen e fechar |
-| Barra de tarefas personalizada | ✅ | Funções extras para o JRA |
+| Barra de tarefas personalizada | ✅ | Funções extras para o Jira |
 | Templates de comentários | ✅ | Modelos prontos e editáveis |
 | Templates interativos | ✅ | Campo guiado para preencher respostas |
 | Templates de flags | ✅ | Inclui modal minimizável para ver issue |
@@ -48,7 +48,7 @@ Este plugin adiciona diversas melhorias visuais e funcionais ao sistema JRA, tor
 | Função | Status | Descrição |
 |--------|--------|-----------|
 | Cor por média diária | ✅ | Indicação visual do desempenho |
-| Copiar nome do colaborador | ⚠️ Desativado | Função futura |
+| Copiar nome do colaborador | ⚠️ Desativado | Função desativada |
 | Configuração de limites | ✅ | Ajuste de limites diários |
 | Exportações | ✅ | Relatório, Resumo, CSV, JSON |
 | Estatísticas na tela | ✅ | Indicadores variados |
@@ -73,15 +73,15 @@ Este plugin adiciona diversas melhorias visuais e funcionais ao sistema JRA, tor
 - Sempre mantenha a pasta do plugin organizada — isso facilita atualizações
 - Caso algo não carregue:  
 → Desabilite e habilite a extensão novamente  
-→ Clique no botão **Recarregar/Reload**
-- Sugestões e bugs? Abra uma issue no repositório 😊
+→ Clique no botão **Recarregar/Reload/Atualizar**
+- Sugestões e bugs? Abra uma issue no repositório ou envie uma mensagem ao desenvolvedor 😊
 
 ---
 
 ## 🤝 Contribuindo
 
-Pull requests são bem-vindos!  
-Se quiser sugerir algo, basta abrir uma issue com sua ideia ✨
+Sugestões são bem-vindos!  
+Se quiser sugerir algo, basta abrir uma issue com sua ideia ou enviar mensagem ao desenvolvedor ✨
 
 ---
 
@@ -92,5 +92,5 @@ Reprodução não autorizada sem permissão.
 
 ---
 
-🛠 Desenvolvido para facilitar o dia a dia no JRA 💙  
+🛠 Desenvolvido para facilitar o dia a dia no Jira 💙  
 Qualquer dúvida ou sugestão, estou por aqui!
