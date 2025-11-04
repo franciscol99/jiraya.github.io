@@ -13,16 +13,19 @@ Extensão para aumentar a produtividade e usabilidade no sistema Jira, trazendo 
 ## 🚀 Funcionalidades
 
 ### 📝 Issue / Editar Issue
-- **Campos de texto ajustados:** Redimensionam conforme o conteúdo
-- **Modais ajustáveis:** Maximize, minimize, fullscreen e fechar
-- **Barra de tarefas personalizada:** Funções extras para o Jira
-- **Templates visuais e interativos:** Modelos prontos, editáveis e campos guiados
-- **Botão Copiar código:** Em blocos de código no comentário
-- **Blocos informativos:** Dicas visuais em campos como “Causa Ocorrência”
-- **Imagens redimensionadas:** Ajustadas a 90% do container e centralizadas
-- **Flag fixada no topo:** Comentários importantes sempre visíveis
-- **Botão Ir para flags fixadas:** Navegação rápida para comentários com flag
-- **Download de comentários:** Exporta todos ou apenas o comentário sinalizado
+
+| Função | Status | Descrição |
+|--------|--------|-----------|
+| **Campos de texto ajustados** | ✅ | Redimensionam conforme o conteúdo |
+| **Modais ajustáveis** | ✅ | Maximize, minimize, fullscreen e fechar |
+| **Barra de tarefas personalizada** | ✅ | Funções extras para o Jira |
+| **Templates visuais e interativos** | ✅ | Modelos prontos, editáveis e campos guiados |
+| **Botão Copiar código** | ✅ | Em blocos de código no comentário |
+| **Blocos informativos** | ✅ | Dicas visuais em campos como "Causa Ocorrência" |
+| **Imagens redimensionadas** | ✅ | Ajustadas a 90% do container e centralizadas |
+| **Flag fixada no topo** | ✅ | Comentários importantes sempre visíveis |
+| **Botão Ir para flags fixadas** | ✅ | Navegação rápida para comentários com flag |
+| **Download de comentários** | ✅ | Exporta todos ou apenas o comentário sinalizado |
 
 ### 🧩 Templates
 
@@ -69,20 +72,26 @@ Os templates customizados oferecem uma interface guiada e interativa para criar 
 
 
 ### ⏱️ Folha de Horas (Timesheets)
-- **Cor por média diária:** Indicação visual do desempenho
-- **Copiar nome do colaborador:** (Desativado)
-- **Configuração de limites:** Ajuste de limites diários
-- **Exportações:** Relatório, Resumo, CSV, JSON
-- **Estatísticas na tela:** Indicadores variados
-- **Informações do período:** Visão ampla do desempenho
-- **Análises diversas:** Performance, produtividade e distribuição
-- **Alertas:** Notificações úteis
-- **Média por colaborador/dia útil:** Cálculos automáticos
-- **Configuração de mín./média/máx.:** Controle completo
+
+| Função | Status | Descrição |
+|--------|--------|-----------|
+| **Cor por média diária** | ✅ | Indicação visual do desempenho |
+| **Copiar nome do colaborador** | ⚠️ | Desativado |
+| **Configuração de limites** | ✅ | Ajuste de limites diários |
+| **Exportações** | ✅ | Relatório, Resumo, CSV, JSON |
+| **Estatísticas na tela** | ✅ | Indicadores variados |
+| **Informações do período** | ✅ | Visão ampla do desempenho |
+| **Análises diversas** | ✅ | Performance, produtividade e distribuição |
+| **Alertas** | ✅ | Notificações úteis |
+| **Média por colaborador/dia útil** | ✅ | Cálculos automáticos |
+| **Configuração de mín./média/máx.** | ✅ | Controle completo |
 
 ### 🛠️ Sistema / Jira
-- **Logo atualizada:** Versão mais recente
-- **Checagem de atualização automática:** Verifica se há atualizações disponíveis
+
+| Função | Status | Descrição |
+|--------|--------|-----------|
+| **Logo atualizada** | ✅ | Versão mais recente |
+| **Checagem de atualização automática** | ✅ | Verifica se há atualizações disponíveis |
 
 ---
 
