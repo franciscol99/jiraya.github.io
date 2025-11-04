@@ -25,9 +25,48 @@ Extensão para aumentar a produtividade e usabilidade no sistema Jira, trazendo 
 - **Download de comentários:** Exporta todos ou apenas o comentário sinalizado
 
 ### 🧩 Templates
-- **Agile:** Checklist DT, Checklist DR, Story, TI, Checklist Incompleto, Liberação de conexão, Falta de análise, Retorno de Validação, Análise Ponto Focal
-- **Dev:** Codificação, Checklist de Qualidade, Causa Ocorrência
-- **QA:** Teste ISAE, Teste Concluído
+
+Templates disponíveis para uso, classificados por área, tipo e local de aplicação.
+
+| Área | Template | Tipo | Local |
+|------|----------|------|-------|
+| **Agile** | Checklist DT | Visual/Dinâmico | Issue/Comentário |
+| **Agile** | Checklist DR | Visual/Dinâmico | Issue/Comentário |
+| **Agile** | Story | Visual | Issue/Comentário |
+| **Agile** | TI | Visual | Issue/Comentário |
+| **Agile** | Checklist Incompleto | Texto | Classificar Impedimento - Retorno Suporte |
+| **Agile** | Liberação de conexão | Texto | Classificar Impedimento - Retorno Suporte |
+| **Agile** | Falta de análise | Texto | Classificar Impedimento - Retorno Suporte |
+| **Agile** | Retorno de Validação | Texto | Classificar Impedimento - Retorno Suporte |
+| **Agile** | Análise Ponto Focal | Texto | Classificar Impedimento - Retorno Suporte |
+| **Dev** | Codificação | Visual | Issue/Comentário |
+| **Dev** | Checklist de Qualidade | Visual/Dinâmico | Issue/Comentário |
+| **Dev** | Causa Ocorrência | Texto | Editar Issue - Manutenção |
+| **QA** | Teste ISAE | Visual | Issue/Comentário |
+| **QA** | Teste Concluído | Visual | Issue/Comentário |
+
+### ✨ Templates Interativos e Dinâmicos
+
+Os templates customizados oferecem uma interface guiada e interativa para criar comentários estruturados no Jira. Com campos dinâmicos e inteligentes, facilitam o preenchimento de checklists e garantem consistência na documentação.
+
+| Funcionalidade | Status | Descrição |
+|----------------|--------|-----------|
+| **Modal Interativo** | ✅ | Interface guiada com formulário estruturado para preenchimento de templates. Suporta maximizar, minimizar e tela cheia. |
+| **Campos por Categoria** | ✅ | Organização automática dos campos em categorias visuais, facilitando navegação e compreensão do template. |
+| **Tipos de Campo Múltiplos** | ✅ | Suporta **radio buttons** (escolha única), **checkboxes** (múltipla escolha) e **textarea** (texto livre) com auto-redimensionamento. |
+| **Opção "Outras"** | ✅ | Campos dinâmicos para adicionar opções personalizadas além das pré-definidas. Permite múltiplos valores com botões adicionar/remover. |
+| **Botão "Marcar Todas"** | ✅ | Em campos checkbox, permite marcar/desmarcar todas as opções com um clique (excluindo automaticamente a opção "Outras"). |
+| **Auto-seleção Inteligente** | ✅ | Ao preencher campo "Outras", marca automaticamente o checkbox correspondente para garantir que a resposta seja incluída. |
+| **Validação Visual** | ✅ | Marcadores visuais (✅/❌) aplicados automaticamente às respostas para identificação rápida de status. |
+| **Campos Vazios Opcionais** | ✅ | Opção de incluir ou ocultar campos sem resposta no resultado final, mantendo o template limpo e objetivo. |
+| **Formatação Jira** | ✅ | Conversão automática para markup do Jira com painéis coloridos, tabelas e formatação adequada. |
+| **Links de Documentação** | ✅ | Suporte a links no cabeçalho do modal para acesso rápido a documentação relacionada ao template. |
+| **Personalização de Cores** | ✅ | Campos podem ter cores de fundo personalizadas (bgColor, titleBGColor) para destaque visual no resultado. |
+| **Modo Tabela ou Painel** | ✅ | Geração flexível em formato de tabela estruturada ou painéis individuais, conforme configuração do template. |
+| **Prevenção de Duplicação** | ✅ | Sistema inteligente que evita duplicação de campos e eventos ao reabrir o modal, garantindo estabilidade. |
+| **IDs Únicos Automáticos** | ✅ | Geração automática de identificadores únicos usando timestamp para campos dinâmicos "Outras". |
+| **Feedback de Carregamento** | ✅ | Indicador visual durante a criação do modelo, informando o progresso ao usuário. |
+
 
 ### ⏱️ Folha de Horas (Timesheets)
 - **Cor por média diária:** Indicação visual do desempenho
