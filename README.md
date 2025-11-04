@@ -5,10 +5,10 @@ Extensão para aumentar a produtividade e usabilidade no sistema Jira, trazendo 
 
 
 ## 🧠 Como instalar a extensão no Chrome (modo desenvolvedor)
-> 1. Baixe o plugin no link do drive e extraia para uma pasta fixa
-> 2. No Chrome, acesse `chrome://extensions/` e ative o **modo desenvolvedor**
-> 3. Clique em **"Carregar sem compactação/Load unpacked"** e selecione a pasta do plugin
-> 4. Para atualizar, substitua os arquivos antigos pelos novos e clique em **"Atualizar / Update"** nas extensões
+1. Baixe o plugin no link do drive e extraia para uma pasta fixa
+2. No Chrome, acesse `chrome://extensions/` e ative o **modo desenvolvedor**
+3. Clique em **"Carregar sem compactação/Load unpacked"** e selecione a pasta do plugin
+4. Para atualizar, substitua os arquivos antigos pelos novos e clique em **"Atualizar / Update"** nas extensões
 
 ## 🚀 Funcionalidades
 
