@@ -1,9 +1,10 @@
 {
   "atualizar": false,
-  "ativo": true,
+  "ativo": false,
   "version": "1.15",
   "description": "<li>Correções de bugs</li><li>Detalhamento de funcionalidades</li>",
   "linkDownload": "https://jirayaplugin.short.gy/download",
   "linkDocumentacao": "https://jirayaplugin.short.gy/documentacao",
   "forcarAtualizacao": false
 }
+
