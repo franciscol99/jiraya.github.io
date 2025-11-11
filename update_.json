@@ -1,6 +1,6 @@
 {
     "version":  "1.16",
-    "description":  "\u003cli\u003e\u003cstrong\u003eIssue Pai\u003c/strong\u003e\u003cspan\u003eCampo de Issue pai em subtarefas\u003c/span\u003e\u003c/li\u003e\u003cli class=\"jiraya-li-atualizacao-importante\"\u003e\u003cstrong\u003eCorreções de bugs\u003c/strong\u003e\u003cspan\u003eCorreções de bugs\u003c/span\u003e\u003c/li\u003e\u003cli class=\"novo\"\u003e\u003cstrong\u003eExportação CSV\u003c/strong\u003e\u003cspan\u003eExportação CSV\u003c/span\u003e\u003c/li\u003e",
+    "description":  "\u003cli\u003e\u003cspan class=\"jiraya-atualizacao-titulo\"\u003eIssue Pai\u003c/span\u003e\u003cspan class=\"jiraya-atualizacao-descricao\"\u003eCampo de Issue pai em subtarefas, foi criado um botão para copiar o valor do campo da issue pai para a subtarefa.\u003c/span\u003e\u003c/li\u003e\u003cli class=\"jiraya-li-atualizacao-importante\"\u003e\u003cspan class=\"jiraya-atualizacao-titulo\"\u003eCorreções de bugs\u003c/span\u003e\u003cspan class=\"jiraya-atualizacao-descricao\"\u003eCorreções de bugs\u003c/span\u003e\u003c/li\u003e\u003cli class=\"novo\"\u003e\u003cspan class=\"jiraya-atualizacao-titulo\"\u003eExportação CSV\u003c/span\u003e\u003cspan class=\"jiraya-atualizacao-descricao\"\u003eExportação CSV\u003c/span\u003e\u003c/li\u003e",
     "linkDownload":  "https://jirayaplugin.short.gy/download",
     "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
     "forcarAtualizacao":  false,
