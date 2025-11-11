@@ -1,6 +1,6 @@
 {
     "version":  "1.16",
-    "description":  "\u003cli\u003eFunções importantes para o bom funcionamento\u003c/li\u003e\u003cli class=\"destaque\"\u003eDetalhamento de funcionalidades\u003c/li\u003e\u003cli\u003eCorreções de bugs\u003c/li\u003e\u003cli class=\"novo\"\u003eExportação CSV\u003c/li\u003e",
+    "description":  "\u003cli\u003e\u003cstrong\u003eIssue Pai\u003c/strong\u003e\u003cspan\u003eCampo de Issue pai em subtarefas\u003c/span\u003e\u003c/li\u003e\u003cli class=\"jiraya-li-atualizacao-importante\"\u003e\u003cstrong\u003eCorreções de bugs\u003c/strong\u003e\u003cspan\u003eCorreções de bugs\u003c/span\u003e\u003c/li\u003e\u003cli class=\"novo\"\u003e\u003cstrong\u003eExportação CSV\u003c/strong\u003e\u003cspan\u003eExportação CSV\u003c/span\u003e\u003c/li\u003e",
     "linkDownload":  "https://jirayaplugin.short.gy/download",
     "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
     "forcarAtualizacao":  false,
