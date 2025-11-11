@@ -1,0 +1,9 @@
+{
+    "version":  "1.16",
+    "description":  "\u003cli\u003eFunções importantes para o bom funcionamento\u003c/li\u003e\u003cli class=\"destaque\"\u003eDetalhamento de funcionalidades\u003c/li\u003e\u003cli\u003eCorreções de bugs\u003c/li\u003e\u003cli class=\"novo\"\u003eExportação CSV\u003c/li\u003e",
+    "linkDownload":  "https://jirayaplugin.short.gy/download",
+    "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
+    "forcarAtualizacao":  false,
+    "atualizar":  false,
+    "ativo":  true
+}
