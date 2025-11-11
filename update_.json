@@ -4,6 +4,6 @@
     "linkDownload":  "https://jirayaplugin.short.gy/download",
     "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
     "forcarAtualizacao":  false,
-    "atualizar":  false,
+    "atualizar":  true,
     "ativo":  true
 }
