@@ -5,5 +5,6 @@
     "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
     "forcarAtualizacao":  false,
     "atualizar":  true,
-    "ativo":  false
+    "ativo":  false,
+    "avisoAdmin": "aviso de teste do admin"
 }
