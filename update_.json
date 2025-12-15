@@ -5,6 +5,6 @@
     "linkDocumentacao":  "https://jirayaplugin.short.gy/documentacao",
     "forcarAtualizacao":  false,
     "atualizar":  true,
-    "ativo":  false,
+    "ativo":  true,
     "avisoAdmin": "extensaod esativada pelo totvs"
 }
