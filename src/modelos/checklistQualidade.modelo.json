@@ -1,0 +1,200 @@
+﻿{
+  "titulo": "📊 Checklist de qualidade",
+  "linksHeader": [
+    {
+      "texto": "📚 Acesse a documentação completa sobre Checklist de Qualidade - PDV",
+      "url": "https://tdn.totvs.com/pages/viewpage.action?spaceKey=TVSSILC\u0026title=Checklist+de+Qualidade+-+PDV"
+    }
+  ],
+  "campos": [
+    {
+      "id": "sistemas_pdv",
+      "tipo": "radio",
+      "nome": "1 - Em quais Sistemas Operacionais deve ser feita a validação no PDV?",
+      "itens": [
+        "Windows e Linux",
+        "Windows ou Linux",
+        "Windows",
+        "Linux",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "sistemas_servidor",
+      "tipo": "radio",
+      "nome": "2 - Em quais Sistemas Operacionais deve ser feita a validação no servidor de PDV?",
+      "itens": [
+        "Windows e Linux",
+        "Windows ou Linux",
+        "Windows",
+        "Linux",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "modos_operacao",
+      "tipo": "checkbox",
+      "nome": "3 - Em quais modo(s) de operação deve ser feita a validação?",
+      "itens": [
+        "Venda cupom",
+        "Venda nota",
+        "Venda cupom e nota",
+        "Comanda",
+        "Pré-venda",
+        "Vasilhame",
+        "Devolução",
+        "Self-Checkout",
+        "Self-Checkout pagamento",
+        "Conferência venda",
+        "Touch screen venda cupom",
+        "Touch screen venda nota",
+        "Touch screen venda cupom e nota",
+        "Touch screen comanda",
+        "Outras"
+      ],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff",
+      "outroCampo": true
+    },
+    {
+      "id": "documentos_fiscais",
+      "tipo": "checkbox",
+      "nome": "4 - Em quais tipos de documentos fiscais deve ser feita a validação?",
+      "itens": ["NFCe", "NFe", "SAT", "MFe"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "integracao_retaguarda",
+      "tipo": "radio",
+      "nome": "5 - Com qual integração de retaguarda deve ser feita a validação?",
+      "itens": [
+        "Consinco",
+        "RMS",
+        "Winthor",
+        "Qualquer integração",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "formas_pagamento",
+      "tipo": "checkbox",
+      "nome": "6 - Quais formas de pagamento deve ser feita a validação?",
+      "itens": ["Boleto", "PIX", "Cartão de Crédito/Débito", "Outras"],
+      "outroCampo": true,
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "aplicacao_retaguarda",
+      "tipo": "textarea",
+      "nome": "7 - É necessário utilizar alguma aplicação da retaguarda?",
+      "descricao": "Aplicação Vendas",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "parametros_validacao",
+      "tipo": "textarea",
+      "nome": "8 - Quais Parâmetros são necessários para a validação?",
+      "descricao": "Monitor \u003e Configurações \u003e Configurações de PDVs \u003e Regras de negócios \u003e Modo de operação = Desconto no Item",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "permissoes",
+      "tipo": "textarea",
+      "nome": "9 - Quais Permissões são necessárias para a validação?",
+      "descricao": "Abrir Caixa, Abrir gaveta",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "componentes_envolvidos",
+      "tipo": "textarea",
+      "nome": "10 - Existem componentes envolvidos para a solução da issue?",
+      "descricao": "Sim, componente XPTO.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "perifericos",
+      "tipo": "textarea",
+      "nome": "11 - É necessário o uso de algum periférico?",
+      "descricao": "Pinpad xpto",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "simulador",
+      "tipo": "textarea",
+      "nome": "12 - É necessário utilizar algum simulador?",
+      "descricao": "Simulador de API do PDV",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "rotinas_afetadas",
+      "tipo": "textarea",
+      "nome": "13 - Alguma outra rotina foi afetada?",
+      "descricao": "Descrever os fluxos ou funcionalidades afetadas e de que maneira elas foram afetadas.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "afeta_cloud",
+      "tipo": "textarea",
+      "nome": "14 - Afeta o Cloud?",
+      "descricao": "Descrever os fluxos ou funcionalidades afetadas e de que maneira elas foram afetadas.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "tabelas_bd",
+      "tipo": "textarea",
+      "nome": "15 - Quais Tabelas do banco de dados devem ser verificadas?",
+      "descricao": "Descrever quais tabelas do banco de dados devem ser verificadas (apenas quando realmente necessário).",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "validacao_assincrona",
+      "tipo": "radio",
+      "nome": "16 - Deve haver a validação com os parâmetros da identificação assíncrona habilitados?",
+      "itens": ["Sim", "Não"],
+      "descricao": "Sim ou Não + detalhes necessários.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "automacao_rotina",
+      "tipo": "textarea",
+      "nome": "17 - Existe a automação desta rotina? Se não, ela deve ser criada ou ainda atualizada?",
+      "descricao": "Sim, porém deve ser feita a complementação.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "alteracoes_bd_performance",
+      "tipo": "textarea",
+      "nome": "18 - Haverão alterações relevantes no BD que gere a necessidade de testes de performance?",
+      "descricao": "Sim, a mudança compromete a a tabela XPTO do BD que deve ser testada massivamente para garantir a performance.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "informacoes_complementares",
+      "tipo": "textarea",
+      "nome": "19 - Informações complementares",
+      "descricao": "Descrever informações relevantes que irão ajudar durante as validações, por exemplo, como simular problemas, fluxo a ser verificado etc.",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    }
+  ]
+}

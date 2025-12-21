@@ -1,0 +1,164 @@
+﻿{
+  "titulo": "📊 Checklist da DT",
+  "descricao": "Checklist de Revisão - Documentação Técnica (DT)",
+  "tipo": "tabela",
+  "colunasTabela": "Item, Verificado, Comentário/Resumo",
+  "separarPorCategoria": true,
+  "linksHeader": [
+    {
+      "texto": "📚 Acesse a guia completa sobre revisão - Documento Técnico",
+      "url": "https://tdn.totvs.com/pages/viewpage.action?pageId=890539677"
+    }
+  ],
+  "campos": [
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "template_atualizado",
+      "tipo": "radio",
+      "descricao": "Verifique se todos os campos exigidos estão presentes e atualizados.",
+      "nome": "01. Template Atualizado",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "versionamento_menu_tdn",
+      "tipo": "radio",
+      "descricao": "Confirme se o documento está na árvore correta do TDN, respeitando o versionamento.",
+      "nome": "02. Versionamento de menu TDN",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "titulo_padrao_correto",
+      "tipo": "radio",
+      "descricao": "Verifique se o título reflete o resultado da solução (não a ação realizada).",
+      "nome": "03. Título no padrão correto",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "tabela_dados_gerais",
+      "tipo": "radio",
+      "descricao": "Certifique-se de que todos os dados gerais estão preenchidos corretamente.",
+      "nome": "04. Tabela Dados Gerais",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "situacao_requisito",
+      "tipo": "radio",
+      "descricao": "Verifique se a situação ou requisito está descrito corretamente.",
+      "nome": "05. Situação/Requisito",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "pre_requisitos",
+      "tipo": "radio",
+      "descricao": "Verifique se os pré-requisitos foram especificados corretamente.",
+      "nome": "06. Pré-Requisitos",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "solucao",
+      "tipo": "radio",
+      "descricao": "Confirme se a solução está clara e adequada ao tipo de DT.",
+      "nome": "07. Solução",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "padrao_imagens_gifs",
+      "tipo": "radio",
+      "descricao": "Imagens centralizadas (600-800px), com legenda; GIFs curtos com áreas destacadas.",
+      "nome": "08. Padrão de Imagens e GIFs",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "rotulos",
+      "tipo": "radio",
+      "descricao": "Cheque se os rótulos obrigatórios estão presentes e seguem o padrão (minúsculas, sem acentos, com \"_\").",
+      "nome": "09. Rótulos",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "link_de_documentos_relacionados",
+      "tipo": "radio",
+      "descricao": "Verifique se todos os links estão funcionando corretamente e direcionam para os destinos corretos.",
+      "nome": "10. Links de Documentos Relacionados",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "versionamento_e_disponibilidade",
+      "tipo": "radio",
+      "descricao": "Verifique se o DT está na árvore correta e a expedição está conforme o padrão.",
+      "nome": "11. Versionamento e disponibilidade",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "requisitos_versao",
+      "tipo": "radio",
+      "descricao": "Confirme se o Service Pack foi especificado corretamente.",
+      "nome": "12. Requisitos de versão",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "estado_documento",
+      "tipo": "radio",
+      "descricao": "Verifique se o documento está publicado e disponível para os usuários.",
+      "nome": "13. Estado do documento",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "link_service_pack",
+      "tipo": "radio",
+      "descricao": "Confirme se o link do DT e seu Service Pack estão incluídos no Documento de Referência correspondente.",
+      "nome": "14. Link Service Pack",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "link_dt_issue",
+      "descricao": "Informar o link do DT no campo Documento Técnico (URL+pageId):",
+      "nome": "15. Link DT Issue",
+      "tipo": "textarea",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    }
+  ]
+}

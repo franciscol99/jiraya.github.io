@@ -1,0 +1,30 @@
+{panel:title=História de Usuário|titleBGColor=#ededed|bgColor=#ffffff}
+*Como* <papel/perfil>
+*Posso* <ação/meta>
+*Para* <benefício/razão>
+{panel}
+{panel:title=Critérios de aceite|titleBGColor=#ededed|bgColor=#ffffff}
+ *  {panel}
+{panel:title=BDD (Desenvolvimento Orientado ao Comportamento)|titleBGColor=#ededed|bgColor=#ffffff}
+*CENÁRIO:* 
+
+*Dado que* <contexto inicial>
+*Quando* <evento ou ação>
+*Então* <resultado esperado>
+{panel}
+{panel:title=Regras de negócio|titleBGColor=#ededed|bgColor=#ffffff}
+ *  {panel}
+{panel:title=Protótipo|titleBGColor=#ededed|bgColor=#ffffff}
+ 
+{panel}
+{panel:title=Link do protótipo|titleBGColor=#ededed|bgColor=#ffffff}
+h4. 🔗  
+{panel}
+{panel:title=DoR Squad Novos projetos|titleBGColor=#ededed|bgColor=#ffffff}
+ *  {panel}
+{panel:title=Refinamento técnico front-end|titleBGColor=#ededed|bgColor=#ffffff}
+#será atualizado pelo devteam  
+{panel}
+{panel:title=Refinamento técnico back-end|titleBGColor=#ededed|bgColor=#ffffff}
+#será atualizado pelo devteam
+{panel}

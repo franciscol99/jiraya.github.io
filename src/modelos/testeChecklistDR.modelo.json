@@ -1,0 +1,164 @@
+﻿{
+  "titulo": "📊 Checklist da DR",
+  "descricao": "Checklist de Revisão - Documentação de Referência (DR)",
+  "tipo": "tabela",
+  "colunasTabela": "Item, Verificado, Comentário/Resumo",
+  "separarPorCategoria": true,
+  "linksHeader": [
+    {
+      "texto": "📚 Acesse a guia completa sobre revisão - Documento de Referência",
+      "url": "https://tdn.totvs.com/pages/viewpage.action?pageId=918410275"
+    }
+  ],
+  "campos": [
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "template_utilizado",
+      "tipo": "radio",
+      "descricao": "Verifique se o documento utiliza o template mais recente, seguindo os padrões estabelecidos.",
+      "nome": "01. TEMPLATE ATUALIZADO",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "versionamento_menu_tdn",
+      "tipo": "radio",
+      "descricao": "O documento deve estar na árvore correta do TDN, respeitando o versionamento e o tipo de documento.",
+      "nome": "02. VERSIONAMENTO DE MENU TDN",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Estrutura do Documento",
+      "id": "titulo_padrao_correto",
+      "tipo": "radio",
+      "descricao": "Verifique se o título do Documento de Referência (DR) segue o padrão estabelecido e reflete claramente o conteúdo do documento.",
+      "nome": "03. TÍTULO NO PADRÃO CORRETO",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "visao_geral",
+      "tipo": "radio",
+      "descricao": "Valide se há uma apresentação clara da aplicação, sua finalidade e benefícios para os usuários.",
+      "nome": "04. VISÃO GERAL",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "caminho_acesso",
+      "tipo": "radio",
+      "descricao": "Verifique se o caminho de acesso à aplicação está correto, incluindo módulo, aplicação, tela/funcionalidade e código da tela.",
+      "nome": "05. CAMINHO",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "paramentros_dinamicos",
+      "tipo": "radio",
+      "descricao": "Confirme se foram listados corretamente com o NOME, DESCRIÇÃO E VALORES.",
+      "nome": "06. PARÂMETROS DINÂMICOS",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "pre_requisitos_restricoes_parametrizacoes",
+      "tipo": "radio",
+      "descricao": "Verifique se as informações foram preenchidas corretamente, priorizando lógica e explicação de fácil entendimento.",
+      "nome": "07. PRÉ-REQUISITOS, RESTRIÇÕES E PARAMETRIZAÇÕES",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "passo_a_passo",
+      "tipo": "radio",
+      "descricao": "Certifique-se de que o passo a passo está detalhado, com instruções claras e visuais para auxiliar na execução. O texto deve seguir uma ordem lógica, com gramática e ortografia corretas.",
+      "nome": "08. PASSO A PASSO",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "padrao_imagens_gifs",
+      "tipo": "radio",
+      "descricao": "Verifique se imagens e gifs seguem as diretrizes estabelecidas para garantir clareza e padronização na documentação.",
+      "nome": "09. PADRÃO DE IMAGENS E GIFS",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "tecnologias_homologadas",
+      "tipo": "radio",
+      "descricao": "Verifique se as tecnologias compatíveis e homologadas foram informadas corretamente, evitando ambiguidades.",
+      "nome": "10. TECNOLOGIAS HOMOLOGADAS",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "documentos_assuntos_relacionados",
+      "tipo": "radio",
+      "descricao": "Verifique se todos os links para aplicações e funcionalidades relacionadas foram incluídos corretamente.",
+      "nome": "11. DOCUMENTOS E ASSUNTOS RELACIONADOS",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "documentos_versoes_atualizacoes",
+      "tipo": "radio",
+      "descricao": "Valide se versões e atualizações relevantes estão identificadas e os links para documentos mencionados foram inseridos corretamente.",
+      "nome": "12. DOCUMENTOS DE VERSÕES E ATUALIZAÇÕES",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Qualidade de conteúdo",
+      "id": "rotulos",
+      "tipo": "radio",
+      "descricao": "Cheque se os rótulos obrigatórios estão presentes e seguem o padrão (minúsculas, sem acentos, com \"_\").",
+      "nome": "13. RÓTULOS",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "estado_documento",
+      "tipo": "radio",
+      "descricao": "Verifique se o documento está Publicado e disponível para os usuários.",
+      "nome": "14. ESTADO DO DOCUMENTO",
+      "itens": ["✅ Sim", "❌ Não"],
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Disponibilização",
+      "id": "link_dt_issue",
+      "descricao": "Informar o link do DT no campo Documento Técnico (URL+pageId):",
+      "nome": "15. LINK DT ISSUE",
+      "tipo": "textarea",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff"
+    }
+  ]
+}
