@@ -1,5 +1,5 @@
 ﻿{
-  "titulo": "📊 Checklist de qualidadeXX",
+  "titulo": "📊 Checklist de qualidade",
   "linksHeader": [
     {
       "texto": "📚 Acesse a documentação completa sobre Checklist de Qualidade - PDV",
@@ -12,7 +12,7 @@
       "tipo": "radio",
       "nome": "1 - Em quais Sistemas Operacionais deve ser feita a validação no PDV?",
       "itens": [
-        "Windows e LinuxTT",
+        "Windows e Linux",
         "Windows ou Linux",
         "Windows",
         "Linux",
@@ -198,4 +198,5 @@
     }
   ]
 }
+
 
