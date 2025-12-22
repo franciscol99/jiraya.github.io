@@ -1,0 +1,14 @@
+[Classificação] Recente / Legado / Novo
+
+[Fato] {issue}
+
+[Causa] A implementação da issue {issue} no método XXXXX causou o erro reportado.
+
+[Ação] Foi corrigido o método XXXX para não executar de maneira erronia a ação de calculo. 
+
+[Automação] Sim
+
+[Teste]
+1.
+2.
+3.

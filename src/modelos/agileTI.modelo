@@ -1,0 +1,12 @@
+{panel:title=Requisitos mínimos|titleBGColor=#ededed|bgColor=#ffffff}
+|{*}Produto{*}:| |
+|{*}Versão{*}:|{{VERSAO_ATUAL_SOFTWARE}}|
+|{*}Ambiente{*}:| |
+|{*}Banco de Dados{*}:         | |
+|{*}Tipo de Testes{*}:| |
+{panel}
+{panel:title=Testes realizados e Resultados atingidos|titleBGColor=#ededed|bgColor=#ffffff}
+# 
+# 
+# 
+{panel}

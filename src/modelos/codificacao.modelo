@@ -1,0 +1,47 @@
+{panel:title=Erro encontrado|titleBGColor=#ededed|bgColor=#ffffff}
+(i)  
+{panel}
+{panel:title=Correção aplicada|titleBGColor=#ededed|bgColor=#ffffff}
+(/)  
+{panel}
+{panel:title=Caso de teste|titleBGColor=#ededed|bgColor=#ffffff}
+h4.Ambiente de teste:  
+ *   Base Local PDV
+
+h4.Passo a passo do teste:  
+# 
+# 
+# 
+{panel}
+{panel:title=Parâmetros complementares|titleBGColor=#ededed|bgColor=#ffffff}
+Não há.
+{noformat:java}
+Informar parâmetro(s) criado ou que sofreu alteração.
+Exemplo: Monitor > Movimentações > Movimentações PDV's
+{noformat}
+{panel}
+{panel:title=Parâmetros/Rotinas que afetam o processo|titleBGColor=#ededed|bgColor=#ffffff}
+Não há.
+{noformat:java}
+Informar quais outros parâmetros podem ter sido afetados pelo desenvolvimento realizado: 
+Buscar durante o debug e documentações
+{noformat}
+{panel}
+{panel:title=Pull requests|titleBGColor=#ededed|bgColor=#ffffff}
+h3.Link do PR {{VERSAO_ATUAL_SOFTWARE}}
+ 🔗   
+{panel}
+{panel:title=Criação de branches Manutenção|titleBGColor=#ededed|bgColor=#ffffff}
+{noformat:java}
+hotfix/{{ISSUE_PAI}}
+{noformat}
+{panel}
+{panel:title=Criação de pacotes para teste|titleBGColor=#ededed|bgColor=#ffffff}
+h3. Diretório Google Drive
+{noformat:java}
+G:\Drives compartilhados\Sup {{EQUIPE}}\Issues teste\{{ISSUE_PAI}}
+{noformat}
+h3. Link Google Drive
+ 🔗   
+{panel}
+ 

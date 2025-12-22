@@ -1,0 +1,68 @@
+{
+  "JIRAYA_ELEMENTOS": {
+    "logo": "#logo",
+    "descricaoIssue": "#description-val",
+    "detalhesIssue": "#issuedetails",
+    "containerDescricaoIssue": "#description-form",
+    "headerIssue": ".issue-view .aui-page-header",
+    "modalRegistrarTempo": "#tempo-global-dialog-bundled",
+    "menuLateral": ".aui-navgroup-inner.sidebar-content-container.jira-navigation",
+    "menuLateralFooter": ".aui-sidebar-footer",
+    "tituloIssue": "#summary-val",
+    "linkIssue": ".aui-nav.aui-nav-breadcrumbs",
+    "listaComentarios": ".issue-data-block[id*='comment-']",
+    "containerComentarios": "#issue_actions_container",
+    "comentario": ".wiki-edit:visible",
+    "editarComentarioContainer": ".jira-editor-container:visible",
+    "barraAcoesComentario": ".wiki-button-bar-content",
+    "botaoComentario": "#footer-comment-button",
+    "modalEditarIssue": "#edit-issue-dialog",
+    "geralIssue": "#customfield-panel-1",
+    "modalEditarComentario": "#edit-comment",
+    "botaoJirayaEditor": ".botao-template-customizado",
+    "blocoDeCodigo": ".preformattedContent.panelContent",
+    "blocoDeCodigoNaoProcessado": ".preformattedContent.panelContent:not([data-jiraya-processado='true'])",
+    "folhaDeHoras": "#tt-project-timesheet-app",
+    "tempoReportContainer": ".tempo-report-container",
+    "modalImpedimento": "form#impediment-classification",
+    "rotulosTDN": "#edit-labels-dialog",
+    "menuSuperiorTDN": ".aui-header-secondary"
+  },
+  "JIRAYA": {
+    "ATIVO": true,
+    "ATIVO_JIRA": true,
+    "ATIVO_TDN": true,
+    "ATIVO_IA_TDN": true,
+    "AVISO_ADMIN_GLOBALS": "",
+    "VERSAO_LIMITE": 0.1,
+    "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
+    "LINK_DOWNLOAD": "https://jirayaplugin.short.gy/download",
+    "LINK_ATUALIZACAO": "https://raw.githubusercontent.com/franciscol99/jiraya.github.io/refs/heads/main/update_.json",
+    "LINK_IA_TDN": "https://totvs.dta.totvs.ai/admin/#/public/chat/dta-varejo-supermercados-engenharia/flow/068934bc-13c3-7857-8000-aaaa1ff39ba3?appVersion=13&apiKey=sk-4fecuFxe230Fmwd-FJIA4fQgF3-k1schgf-KFWxpTEm6K2Wn",
+    "LINK_MODELOS": "https://raw.githubusercontent.com/franciscol99/jiraya.github.io/refs/heads/main/src/modelos/",
+    "EMAIL_CONTATO": "francisco.ben@totvs.com.br",
+    "TDN": {
+      "ADD_ROTULO": true
+    },
+    "COMENTARIOS_FLAG": {},
+    "COMENTARIOS_ISSUE": {},
+    "mensagens": {
+      "avisoCausaOcorrenciaPendente": "Causa ocorrência pendente",
+      "testeDeAceitacaoFinalizado": "Concluído com sucesso."
+    },
+    "emojs": {
+      "ok": "(/)",
+      "erro": "(x)",
+      "info": "(i)",
+      "alert": "(!)",
+      "mais": "(+)",
+      "menos": "(-)",
+      "pergunta": "(?)",
+      "estrela": "(*)",
+      "estrela2": "(*y)",
+      "bandeiraVermelha": "(flag)",
+      "bandeiraBranca": "(flagoff)"
+    },
+    "textos": {}
+  }
+}

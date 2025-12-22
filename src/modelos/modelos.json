@@ -1,0 +1,146 @@
+﻿{
+  "areas": {
+    "rapidos": {
+      "nome": "Ações Rápidas",
+      "icone": "⚡",
+      "cor": "#ff5630",
+      "modelos": ["causaOcorrencia"]
+    },
+    "flagImpedimento": {
+      "nome": "Flags",
+      "referencia": "Comentário:",
+      "tipoReferencia": "modal",
+      "categorias": ["flagImpedimento"]
+    },
+    "causaOcorrencia": {
+      "icone": "📝",
+      "nome": "Modelo de Causa Ocorrência",
+      "referencia": "Causa Ocorrência",
+      "tipoReferencia": "modal",
+      "modelos": ["causaOcorrencia"],
+      "informativo": { "tipo": "causaOcorrencia", "modo": "before" }
+    },
+    "agile": {
+      "nome": "Agile",
+      "descricao": "Modelos para Agile Master",
+      "referencia": "comentario",
+      "tipoReferencia": "editor",
+      "categorias": ["agile"]
+    },
+    "desenvolvimento": {
+      "nome": "Dev",
+      "descricao": "Modelos para desenvolvedores",
+      "referencia": "comentario",
+      "tipoReferencia": "editor",
+      "categorias": ["desenvolvimento"]
+    },
+    "testes": {
+      "nome": "QA",
+      "referencia": "comentario",
+      "tipoReferencia": "editor",
+      "categorias": ["testes"]
+    }
+  },
+  "categorias": {
+    "agile": { "nome": "Agile" },
+    "desenvolvimento": { "nome": "Desenvolvimento" },
+    "testes": { "nome": "Testes" },
+    "flagImpedimento": { "nome": "Flag de Impedimento" }
+  },
+  "modelos": {
+    "checklistIncompleto": {
+      "nome": "Checklist Incompleto",
+      "descricao": "Modelo para checklist incompleto",
+      "arquivo": "flagImpedimento.checklistIncompleto.modelo",
+      "categoria": "flagImpedimento",
+      "tipoModelo": "text"
+    },
+    "liberacaoConexao": {
+      "nome": "Liberação de conexão",
+      "descricao": "Modelo para liberação de conexão",
+      "arquivo": "flagImpedimento.liberacaoConexao.modelo",
+      "categoria": "flagImpedimento",
+      "tipoModelo": "text"
+    },
+    "faltaAnalise": {
+      "nome": "Falta de análise",
+      "descricao": "Modelo para falta de análise",
+      "arquivo": "flagImpedimento.faltaAnalise.modelo",
+      "categoria": "flagImpedimento",
+      "tipoModelo": "text"
+    },
+    "retornoValidacao": {
+      "nome": "Retorno de Validação",
+      "descricao": "Modelo para retorno de validação",
+      "arquivo": "flagImpedimento.retornoValidacao.modelo",
+      "categoria": "flagImpedimento",
+      "tipoModelo": "text"
+    },
+    "analisePontoFocal": {
+      "nome": "Análise Ponto Focal",
+      "descricao": "Modelo para análise de ponto focal",
+      "arquivo": "flagImpedimento.analisePontoFocal.modelo",
+      "categoria": "flagImpedimento",
+      "tipoModelo": "text"
+    },
+    "testeISAE": {
+      "nome": "Teste ISAE",
+      "descricao": "Modelo para teste ISAE",
+      "arquivo": "testeISAE.modelo",
+      "categoria": "testes"
+    },
+    "testeConcluido": {
+      "nome": "Teste Concluído",
+      "descricao": "Modelo para teste finalizado",
+      "arquivo": "testeConcluido.modelo",
+      "categoria": "testes"
+    },
+    "codificacao": {
+      "nome": "Codificação",
+      "descricao": "Modelo para documentação de codificação",
+      "arquivo": "codificacao.modelo",
+      "categoria": "desenvolvimento"
+    },
+    "checklistQualidade": {
+      "nome": "Checklist de Qualidade",
+      "descricao": "Checklist interativo para qualidade de entregas Dev.",
+      "arquivo": "checklistQualidade.modelo.json",
+      "categoria": "desenvolvimento",
+      "tipo": "template-dinamico",
+      "tipoDinamico": true
+    },
+    "causaOcorrencia": {
+      "nome": "Causa ocorrência",
+      "descricao": "Modelo para causa e ocorrência",
+      "arquivo": "causaOcorrencia.modelo",
+      "tipoModelo": "text"
+    },
+    "testeDT": {
+      "nome": "Checklist DT",
+      "descricao": "Checklist da Documentação Técnica",
+      "arquivo": "testeChecklistDT.modelo.json",
+      "categoria": "testes",
+      "tipoDinamico": true
+    },
+    "testeDR": {
+      "nome": "Checklist DR",
+      "descricao": "Checklist da Documentação de Referência",
+      "arquivo": "testeChecklistDR.modelo.json",
+      "categoria": "testes",
+      "tipoDinamico": true
+    },
+    "agileStory": {
+      "nome": "Story",
+      "descricao": "Modelo para Story",
+      "arquivo": "agileStory.modelo",
+      "categoria": "agile"
+    }
+  },
+  "_docs": {
+    "areas": "Define as áreas principais. Use \u0027modelos\u0027 para botões diretos ou \u0027categorias\u0027 para dropdowns",
+    "modelos": "Lista de modelos que aparecem como botões individuais",
+    "categorias": "Lista de categorias que aparecem como submenu dropdown",
+    "referencia": "Campo nas áreas que define onde ela deve aparecer",
+    "tipoReferencia": "Tipo da referência: \u0027comentario\u0027 ou \u0027modal\u0027"
+  }
+}
