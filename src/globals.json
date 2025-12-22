@@ -33,7 +33,7 @@
     "ATIVO_JIRA": true,
     "ATIVO_TDN": true,
     "ATIVO_IA_TDN": true,
-    "AVISO_ADMIN_GLOBALS": "",
+    "AVISO_ADMIN_GLOBALS": "Teste de aviso",
     "VERSAO_LIMITE": 0.1,
     "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
     "LINK_DOWNLOAD": "https://jirayaplugin.short.gy/download",
