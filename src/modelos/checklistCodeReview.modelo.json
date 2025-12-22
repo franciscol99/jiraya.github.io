@@ -1,0 +1,143 @@
+{
+  "titulo": "🔍 Checklist Code Review",
+  "linksHeader": [
+    {
+      "texto": "📚 Critérios de análise de qualidade e tipos de issues de defeito",
+      "url": "https://tdn.totvs.com/pages/viewpage.action?pageId=758493893"
+    }
+  ],
+  "campos": [
+    {
+      "id": "checklist_passos_codificacao",
+      "tipo": "checkbox",
+      "nome": "Checklist dos passos de codificação",
+      "itens": [
+        "✓ Realizado"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "fontes_pdv",
+      "tipo": "checkbox",
+      "nome": "Alteração no serviço de PDVs - Fontes disponibilizados",
+      "itens": [
+        "✓ Windows",
+        "✓ Linux",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "prs_release",
+      "tipo": "checkbox",
+      "nome": "PRs criados para release correta",
+      "itens": [
+        "✓ Verificado"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "casos_testes",
+      "tipo": "checkbox",
+      "nome": "Casos de testes estão coerentes",
+      "itens": [
+        "✓ O que foi feito contempla a alteração"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "executaveis_scripts",
+      "tipo": "checkbox",
+      "nome": "Executáveis e scripts disponíveis para QA's",
+      "itens": [
+        "✓ Disponibilizados"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "fonte_acordo_issue",
+      "tipo": "checkbox",
+      "nome": "Fonte alterado está de acordo com a descrição da issue",
+      "itens": [
+        "✓ Critérios verificados"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "alteracao_estrutura",
+      "tipo": "checkbox",
+      "nome": "Alteração de estrutura - Integrações criadas",
+      "itens": [
+        "✓ Consinco",
+        "✓ RMS",
+        "✓ Whintor",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "causa_ocorrencia",
+      "tipo": "checkbox",
+      "nome": "Causa/Ocorrência incluída (para issues de manutenção)",
+      "itens": [
+        "✓ Incluída",
+        "Não se aplica"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "affects_version",
+      "tipo": "checkbox",
+      "nome": "Affects Version da Issue validado com os PRs",
+      "itens": [
+        "✓ Validado"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "casos_testes_executados",
+      "tipo": "checkbox",
+      "nome": "Casos de testes criados e executados",
+      "itens": [
+        "✓ Executados pelo menos uma vez"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "documentacao_padrao",
+      "tipo": "checkbox",
+      "nome": "Documentação no padrão",
+      "itens": [
+        "✓ Verificado"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "links_prs",
+      "tipo": "text-area",
+      "nome": "Links dos Pull Requests",
+      "placeholder": "#Code Review Realizado\n22.07 : https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/101\n23.01 : https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/102\n23.07 : https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/103\nMaster: https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/104",
+      "titleBGColor": "#e8f5e9",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "observacoes_adicionais",
+      "tipo": "text-area",
+      "nome": "Observações Adicionais",
+      "placeholder": "Adicione quaisquer observações relevantes sobre o code review...",
+      "titleBGColor": "#fff3e0",
+      "bgColor": "#ffffff"
+    }
+  ]
+}

@@ -109,6 +109,14 @@
       "tipo": "template-dinamico",
       "tipoDinamico": true
     },
+    "checklistCodeReview": {
+      "nome": "Checklist Code Review",
+      "descricao": "Checklist interativo para code review",
+      "arquivo": "checklistCodeReview.modelo.json",
+      "categoria": "desenvolvimento",
+      "tipo": "template-dinamico",
+      "tipoDinamico": true
+    },
     "causaOcorrencia": {
       "nome": "Causa ocorrência",
       "descricao": "Modelo para causa e ocorrência",
