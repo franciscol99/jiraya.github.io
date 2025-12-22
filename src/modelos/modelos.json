@@ -28,14 +28,7 @@
       "categorias": ["agile"]
     },
     "desenvolvimento": {
-      "nome": "Dev 123",
-      "descricao": "Modelos para desenvolvedores",
-      "referencia": "comentario",
-      "tipoReferencia": "editor",
-      "categorias": ["desenvolvimento"]
-    },
-        "globo": {
-      "nome": "Dev Globo",
+      "nome": "Dev",
       "descricao": "Modelos para desenvolvedores",
       "referencia": "comentario",
       "tipoReferencia": "editor",
@@ -151,4 +144,3 @@
     "tipoReferencia": "Tipo da referência: \u0027comentario\u0027 ou \u0027modal\u0027"
   }
 }
-
