@@ -31,7 +31,7 @@
   "JIRAYA": {
     "ATIVO": true,
     "ATIVO_JIRA": false,
-    "ATIVO_TDN": true,
+    "ATIVO_TDN": false,
     "ATIVO_IA_TDN": true,
     "VERSAO_LIMITE": 0.1,
     "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
@@ -65,5 +65,6 @@
     "textos": {}
   }
 }
+
 
 
