@@ -29,6 +29,10 @@
     "menuSuperiorTDN": ".aui-header-secondary"
   },
   "JIRAYA": {
+    "ATIVO": true,
+    "ATIVO_JIRA": true,
+    "ATIVO_TDN": true,
+    "ATIVO_IA_TDN": true,
     "VERSAO_LIMITE": 0.1,
     "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
     "LINK_DOWNLOAD": "https://jirayaplugin.short.gy/download",
