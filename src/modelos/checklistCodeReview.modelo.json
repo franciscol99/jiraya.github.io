@@ -28,7 +28,7 @@
       "tipo": "checkbox",
       "nome": "Checklist dos passos de codificação",
       "itens": [
-        "✓ Realizado"
+        "Realizado"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -38,8 +38,8 @@
       "tipo": "checkbox",
       "nome": "Alteração no serviço de PDVs - Fontes disponibilizados",
       "itens": [
-        "✓ Windows",
-        "✓ Linux",
+        "Windows",
+        "Linux",
         "Não se aplica"
       ],
       "titleBGColor": "#e3f2fd",
@@ -50,7 +50,7 @@
       "tipo": "checkbox",
       "nome": "PRs criados para release correta",
       "itens": [
-        "✓ Verificado"
+        "Verificado"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -60,7 +60,7 @@
       "tipo": "checkbox",
       "nome": "Casos de testes estão coerentes",
       "itens": [
-        "✓ O que foi feito contempla a alteração"
+        "O que foi feito contempla a alteração"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -70,7 +70,7 @@
       "tipo": "checkbox",
       "nome": "Executáveis e scripts disponíveis para QA's",
       "itens": [
-        "✓ Disponibilizados"
+        "Disponibilizados"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -80,7 +80,7 @@
       "tipo": "checkbox",
       "nome": "Fonte alterado está de acordo com a descrição da issue",
       "itens": [
-        "✓ Critérios verificados"
+        "Critérios verificados"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -90,9 +90,9 @@
       "tipo": "checkbox",
       "nome": "Alteração de estrutura - Integrações criadas",
       "itens": [
-        "✓ Consinco",
-        "✓ RMS",
-        "✓ Whintor",
+        "Consinco",
+        "RMS",
+        "Whintor",
         "Não se aplica"
       ],
       "titleBGColor": "#e3f2fd",
@@ -103,7 +103,7 @@
       "tipo": "checkbox",
       "nome": "Causa/Ocorrência incluída (para issues de manutenção)",
       "itens": [
-        "✓ Incluída",
+        "Incluída",
         "Não se aplica"
       ],
       "titleBGColor": "#e3f2fd",
@@ -114,7 +114,7 @@
       "tipo": "checkbox",
       "nome": "Affects Version da Issue validado com os PRs",
       "itens": [
-        "✓ Validado"
+        "Validado"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -124,7 +124,7 @@
       "tipo": "checkbox",
       "nome": "Casos de testes criados e executados",
       "itens": [
-        "✓ Executados pelo menos uma vez"
+        "Executados pelo menos uma vez"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
@@ -134,7 +134,7 @@
       "tipo": "checkbox",
       "nome": "Documentação no padrão",
       "itens": [
-        "✓ Verificado"
+        "Verificado"
       ],
       "titleBGColor": "#e3f2fd",
       "bgColor": "#ffffff"
