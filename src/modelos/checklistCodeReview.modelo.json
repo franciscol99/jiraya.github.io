@@ -4,6 +4,22 @@
     {
       "texto": "📚 Critérios de análise de qualidade e tipos de issues de defeito",
       "url": "https://tdn.totvs.com/pages/viewpage.action?pageId=758493893"
+    },
+    {
+      "texto": "🔗 Exemplo PR 22.07",
+      "url": "https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/101"
+    },
+    {
+      "texto": "🔗 Exemplo PR 23.01",
+      "url": "https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/102"
+    },
+    {
+      "texto": "🔗 Exemplo PR 23.07",
+      "url": "https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/103"
+    },
+    {
+      "texto": "🔗 Exemplo PR Master",
+      "url": "https://totvstfs.visualstudio.com/Varejo-Supermercados/_git/consinco-erp-wms/pullrequest/104"
     }
   ],
   "campos": [
