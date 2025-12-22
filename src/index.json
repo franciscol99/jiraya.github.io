@@ -29,7 +29,7 @@
     "menuSuperiorTDN": ".aui-header-secondary"
   },
   "JIRAYA": {
-    "ATIVO": false,
+    "ATIVO": true,
     "ATIVO_JIRA": true,
     "ATIVO_TDN": true,
     "ATIVO_IA_TDN": true,
