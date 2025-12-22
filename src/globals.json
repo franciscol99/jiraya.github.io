@@ -29,8 +29,8 @@
     "menuSuperiorTDN": ".aui-header-secondary"
   },
   "JIRAYA": {
-    "ATIVO": false,
-    "ATIVO_JIRA": true,
+    "ATIVO": true,
+    "ATIVO_JIRA": false,
     "ATIVO_TDN": true,
     "ATIVO_IA_TDN": true,
     "VERSAO_LIMITE": 0.1,
@@ -65,4 +65,5 @@
     "textos": {}
   }
 }
+
 
