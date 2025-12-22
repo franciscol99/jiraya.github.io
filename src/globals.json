@@ -34,6 +34,7 @@
     "ATIVO_TDN": true,
     "ATIVO_IA_TDN": true,
     "AVISO_ADMIN_GLOBALS": "Extensão em manutenção para atualização de funcionalidades.",
+    "TEMPO_CACHE_GLOBALS": 30,
     "VERSAO_LIMITE": 0.1,
     "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
     "LINK_DOWNLOAD": "https://jirayaplugin.short.gy/download",
