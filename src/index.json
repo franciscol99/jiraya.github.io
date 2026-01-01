@@ -36,7 +36,7 @@
     "AVISO_ADMIN_GLOBALS": "Extensão em manutenção para atualização de funcionalidades.",
     "INTERVALO_ATUALIZACAO_MINUTOS": 30,
     "VERSAO_LIMITE": 0.1,
-    "TEMA": true,
+    "TEMA": false,
     "TEMA_TDN": true,
     "TEMA_JIRA": true,
     "LINK_DOCUMENTACAO": "https://jirayaplugin.short.gy/documentacao",
