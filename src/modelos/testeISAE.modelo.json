@@ -1,8 +1,8 @@
 {
   "titulo": "🧪 Teste ISAE",
   "descricao": "Template dinâmico para teste ISAE",
-  "tipo": "tabela",
-  "colunasTabela": "Item, Conteúdo",
+  "tipo": "tabela-isae",
+  "tituloTabela": "# Itens Mínimos",
   "separarPorCategoria": false,
   "campos": [
     {
