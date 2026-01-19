@@ -85,7 +85,15 @@
     },
     "testeISAE": {
       "nome": "Teste ISAE",
-      "descricao": "Modelo para teste ISAE",
+      "descricao": "Template dinâmico para teste ISAE",
+      "arquivo": "testeISAE.modelo.json",
+      "categoria": "testes",
+      "tipo": "template-dinamico",
+      "tipoDinamico": true
+    },
+    "testeISAELegado": {
+      "nome": "Teste ISAE (Legado)",
+      "descricao": "Modelo estático para teste ISAE",
       "arquivo": "testeISAE.modelo",
       "categoria": "testes"
     },
@@ -95,9 +103,17 @@
       "arquivo": "testeConcluido.modelo",
       "categoria": "testes"
     },
+    "checklistCodificacao": {
+      "nome": "Checklist Codificação",
+      "descricao": "Checklist interativo para documentação de codificação",
+      "arquivo": "checklistCodificacao.modelo.json",
+      "categoria": "desenvolvimento",
+      "tipo": "template-dinamico",
+      "tipoDinamico": true
+    },
     "codificacao": {
-      "nome": "Codificação",
-      "descricao": "Modelo para documentação de codificação",
+      "nome": "Codificação (Legado)",
+      "descricao": "Modelo estático para documentação de codificação",
       "arquivo": "codificacao.modelo",
       "categoria": "desenvolvimento"
     },

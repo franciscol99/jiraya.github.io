@@ -1,0 +1,93 @@
+{
+  "titulo": "🧪 Teste ISAE",
+  "descricao": "Template dinâmico para teste ISAE",
+  "tipo": "tabela",
+  "colunasTabela": "Item, Conteúdo",
+  "separarPorCategoria": false,
+  "campos": [
+    {
+      "id": "produto",
+      "tipo": "text",
+      "nome": "Produto",
+      "obrigatorio": true,
+      "descricao": "Informar o produto testado",
+      "placeholder": "Ex: Supermercados PDV (Linha Consinco) PDV",
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "versao",
+      "tipo": "text",
+      "nome": "Versão",
+      "obrigatorio": true,
+      "descricao": "Informar a versão do produto testado",
+      "placeholder": "Ex: {{VERSAO_ATUAL_SOFTWARE}}",
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "produto_versao_integrado",
+      "tipo": "text",
+      "nome": "Produto/Versão Integrado",
+      "obrigatorio": false,
+      "descricao": "Informar a versão e o produto integrado testado",
+      "placeholder": "Ex: Sistema X versão Y.Z",
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "ambiente",
+      "tipo": "radio",
+      "nome": "Ambiente",
+      "obrigatorio": true,
+      "descricao": "Informar o ambiente utilizado para executar os testes",
+      "itens": [
+        "Windows",
+        "Linux",
+        "Windows e Linux",
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff",
+      "outroCampo": true
+    },
+    {
+      "id": "banco_dados",
+      "tipo": "text",
+      "nome": "Banco de Dados",
+      "obrigatorio": false,
+      "descricao": "Informar o banco de dados utilizado para executar os testes",
+      "placeholder": "Ex: consincomonitor@QA",
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "tipo_testes",
+      "tipo": "radio",
+      "nome": "Tipo de Testes",
+      "obrigatorio": true,
+      "descricao": "Selecione o tipo de teste realizado",
+      "itens": [
+        "Teste Unitário",
+        "Teste Integrado",
+        "Teste Sistêmico",
+        "Teste Performance"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff"
+    },
+    {
+      "id": "testes_realizados",
+      "tipo": "textarea",
+      "nome": "2. Testes Realizados e Resultados Atingidos",
+      "obrigatorio": true,
+      "descricao": "Descrever a sequência dos testes realizados (passo a passo) e os resultados atingidos",
+      "placeholder": "CENÁRIO:\n\nCASO DE TESTE:\n\nPré-condições / Parâmetros / Configurações:\nQuais os parâmetros utilizados?\n\nAções / Eventos / Entradas:\nQuais as ações executadas?\n\nResultado esperado:\n\nRESULTADO APURADO:\n\nDados da simulação:\n\nResultado apurado:\nQuais os resultados obtidos por meio da configuração e ações?",
+      "titleBGColor": "#fff3e0",
+      "bgColor": "#ffffff",
+      "linhas": 15
+    }
+  ]
+}

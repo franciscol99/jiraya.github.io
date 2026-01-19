@@ -1,0 +1,122 @@
+{
+  "titulo": "✅ Checklist de Codificação",
+  "descricao": "Checklist interativo para documentação de codificação",
+  "tipo": "tabela",
+  "colunasTabela": "Item, Conteúdo",
+  "separarPorCategoria": true,
+  "campos": [
+    {
+      "categoria": "Análise do Problema",
+      "id": "erro_encontrado",
+      "tipo": "textarea",
+      "nome": "Erro encontrado",
+      "descricao": "Descreva o erro ou problema identificado",
+      "placeholder": "Descreva detalhadamente o erro encontrado...",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff",
+      "linhas": 3
+    },
+    {
+      "categoria": "Solução Aplicada",
+      "id": "correcao_aplicada",
+      "tipo": "textarea",
+      "nome": "Correção aplicada",
+      "descricao": "Descreva a correção ou solução implementada",
+      "placeholder": "Descreva a correção aplicada...",
+      "titleBGColor": "#ededed",
+      "bgColor": "#ffffff",
+      "linhas": 3
+    },
+    {
+      "categoria": "Testes Realizados",
+      "id": "ambiente_teste",
+      "tipo": "radio",
+      "nome": "Ambiente de teste",
+      "descricao": "Selecione o ambiente onde os testes foram realizados",
+      "itens": [
+        "Base Local PDV",
+        "Base Local Retaguarda",
+        "Ambiente QA",
+        "Ambiente Homologação",
+        "Outro"
+      ],
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff",
+      "outroCampo": true
+    },
+    {
+      "categoria": "Testes Realizados",
+      "id": "passo_passo_teste",
+      "tipo": "textarea",
+      "nome": "Passo a passo do teste",
+      "descricao": "Descreva o passo a passo dos testes realizados",
+      "placeholder": "1. Primeiro passo\n2. Segundo passo\n3. Terceiro passo",
+      "titleBGColor": "#e3f2fd",
+      "bgColor": "#ffffff",
+      "linhas": 6
+    },
+    {
+      "categoria": "Parâmetros e Configurações",
+      "id": "parametros_complementares",
+      "tipo": "textarea",
+      "nome": "Parâmetros complementares",
+      "descricao": "Informar parâmetro(s) criado ou que sofreu alteração",
+      "placeholder": "Exemplo: Monitor > Movimentações > Movimentações PDV's\n\nInformar parâmetros relevantes...",
+      "titleBGColor": "#fff3e0",
+      "bgColor": "#ffffff",
+      "linhas": 4
+    },
+    {
+      "categoria": "Parâmetros e Configurações",
+      "id": "parametros_rotinas_afetadas",
+      "tipo": "textarea",
+      "nome": "Parâmetros/Rotinas que afetam o processo",
+      "descricao": "Informar quais outros parâmetros podem ter sido afetados pelo desenvolvimento realizado",
+      "placeholder": "Buscar durante o debug e documentações...",
+      "titleBGColor": "#fff3e0",
+      "bgColor": "#ffffff",
+      "linhas": 4
+    },
+    {
+      "categoria": "Controle de Versão",
+      "id": "pull_requests",
+      "tipo": "textarea",
+      "nome": "Pull requests",
+      "descricao": "Link(s) do(s) PR(s) criado(s)",
+      "placeholder": "Link do PR {{VERSAO_ATUAL_SOFTWARE}}:\n🔗 [Cole aqui o link]\n\nLink do PR [outra versão]:\n🔗 [Cole aqui o link]",
+      "titleBGColor": "#e8f5e9",
+      "bgColor": "#ffffff",
+      "linhas": 3
+    },
+    {
+      "categoria": "Controle de Versão",
+      "id": "criacao_branches",
+      "tipo": "text",
+      "nome": "Criação de branches Manutenção",
+      "descricao": "Informar o nome da branch criada para manutenção",
+      "placeholder": "hotfix/{{ISSUE_PAI}}",
+      "titleBGColor": "#e8f5e9",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Pacotes e Deploy",
+      "id": "diretorio_google_drive",
+      "tipo": "text",
+      "nome": "Diretório Google Drive",
+      "descricao": "Caminho do diretório no Google Drive para pacotes de teste",
+      "placeholder": "G:\\Drives compartilhados\\Sup {{EQUIPE}}\\Issues teste\\{{ISSUE_PAI}}",
+      "titleBGColor": "#f3e5f5",
+      "bgColor": "#ffffff"
+    },
+    {
+      "categoria": "Pacotes e Deploy",
+      "id": "link_google_drive",
+      "tipo": "text",
+      "nome": "Link Google Drive",
+      "descricao": "Link direto para o diretório no Google Drive",
+      "placeholder": "🔗 Cole aqui o link do Google Drive",
+      "titleBGColor": "#f3e5f5",
+      "bgColor": "#ffffff"
+    }
+  ]
+}
