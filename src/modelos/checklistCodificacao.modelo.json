@@ -1,12 +1,10 @@
 {
   "titulo": "✅ Checklist de Codificação",
   "descricao": "Checklist interativo para documentação de codificação",
-  "tipo": "tabela",
-  "colunasTabela": "Item, Conteúdo",
-  "separarPorCategoria": true,
+  "tipo": "painel",
+  "separarPorCategoria": false,
   "campos": [
     {
-      "categoria": "Análise do Problema",
       "id": "erro_encontrado",
       "tipo": "textarea",
       "nome": "Erro encontrado",
@@ -17,7 +15,6 @@
       "linhas": 3
     },
     {
-      "categoria": "Solução Aplicada",
       "id": "correcao_aplicada",
       "tipo": "textarea",
       "nome": "Correção aplicada",
@@ -28,7 +25,6 @@
       "linhas": 3
     },
     {
-      "categoria": "Testes Realizados",
       "id": "ambiente_teste",
       "tipo": "radio",
       "nome": "Ambiente de teste",
@@ -45,7 +41,6 @@
       "outroCampo": true
     },
     {
-      "categoria": "Testes Realizados",
       "id": "passo_passo_teste",
       "tipo": "textarea",
       "nome": "Passo a passo do teste",
@@ -56,7 +51,6 @@
       "linhas": 6
     },
     {
-      "categoria": "Parâmetros e Configurações",
       "id": "parametros_complementares",
       "tipo": "textarea",
       "nome": "Parâmetros complementares",
@@ -67,7 +61,6 @@
       "linhas": 4
     },
     {
-      "categoria": "Parâmetros e Configurações",
       "id": "parametros_rotinas_afetadas",
       "tipo": "textarea",
       "nome": "Parâmetros/Rotinas que afetam o processo",
@@ -78,7 +71,6 @@
       "linhas": 4
     },
     {
-      "categoria": "Controle de Versão",
       "id": "pull_requests",
       "tipo": "textarea",
       "nome": "Pull requests",
@@ -89,7 +81,6 @@
       "linhas": 3
     },
     {
-      "categoria": "Controle de Versão",
       "id": "criacao_branches",
       "tipo": "text",
       "nome": "Criação de branches Manutenção",
@@ -99,7 +90,6 @@
       "bgColor": "#ffffff"
     },
     {
-      "categoria": "Pacotes e Deploy",
       "id": "diretorio_google_drive",
       "tipo": "text",
       "nome": "Diretório Google Drive",
@@ -109,7 +99,6 @@
       "bgColor": "#ffffff"
     },
     {
-      "categoria": "Pacotes e Deploy",
       "id": "link_google_drive",
       "tipo": "text",
       "nome": "Link Google Drive",
