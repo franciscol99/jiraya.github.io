@@ -96,7 +96,11 @@
       "descricao": "Caminho do diretório no Google Drive para pacotes de teste",
       "placeholder": "G:\\Drives compartilhados\\Sup {{EQUIPE}}\\Issues teste\\{{ISSUE_PAI}}",
       "titleBGColor": "#f3e5f5",
-      "bgColor": "#ffffff"
+      "bgColor": "#ffffff",
+      "opcoes": [
+        "G:\\Drives compartilhados\\Consinco - PDV\\RCs Teste",
+        "G:\\Drives compartilhados\\Sup {{EQUIPE}}\\Issues teste\\{{ISSUE_PAI}}"
+      ]
     },
     {
       "id": "link_google_drive",
