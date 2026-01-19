@@ -77,7 +77,7 @@
       "tipo": "textarea",
       "nome": "Pull requests",
       "descricao": "Link(s) do(s) PR(s) criado(s)",
-      "placeholder": "Link do PR {{VERSAO_ATUAL_SOFTWARE}}:\n🔗 [Cole aqui o link]\n\nLink do PR [outra versão]:\n🔗 [Cole aqui o link]",
+      "placeholder": "Link do PR {{VERSAO_ATUAL_SOFTWARE}}:\n [Cole aqui o link]\n\nLink do PR [outra versão]:\n [Cole aqui o link]",
       "titleBGColor": "#e8f5e9",
       "bgColor": "#ffffff",
       "linhas": 3
@@ -110,7 +110,7 @@
       "tipo": "text",
       "nome": "Link Google Drive",
       "descricao": "Link direto para o diretório no Google Drive",
-      "placeholder": "🔗 Cole aqui o link do Google Drive",
+      "placeholder": "Cole aqui o link do Google Drive",
       "titleBGColor": "#f3e5f5",
       "bgColor": "#ffffff"
     }
