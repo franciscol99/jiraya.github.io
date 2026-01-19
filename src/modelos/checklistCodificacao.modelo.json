@@ -8,6 +8,7 @@
       "id": "erro_encontrado",
       "tipo": "textarea",
       "nome": "Erro encontrado",
+      "prefixo": "(i) ",
       "descricao": "Descreva o erro ou problema identificado",
       "placeholder": "Descreva detalhadamente o erro encontrado...",
       "titleBGColor": "#ededed",
@@ -18,6 +19,7 @@
       "id": "correcao_aplicada",
       "tipo": "textarea",
       "nome": "Correção aplicada",
+      "prefixo": "(/) ",
       "descricao": "Descreva a correção ou solução implementada",
       "placeholder": "Descreva a correção aplicada...",
       "titleBGColor": "#ededed",
@@ -86,6 +88,7 @@
       "nome": "Criação de branches Manutenção",
       "descricao": "Informar o nome da branch criada para manutenção",
       "placeholder": "hotfix/{{ISSUE_PAI}}",
+      "valorPadrao": "hotfix/{{ISSUE_PAI}}",
       "titleBGColor": "#e8f5e9",
       "bgColor": "#ffffff"
     },
