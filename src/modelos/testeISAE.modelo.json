@@ -87,7 +87,8 @@
       "placeholder": "CENÁRIO:\n\nCASO DE TESTE:\n\nPré-condições / Parâmetros / Configurações:\nQuais os parâmetros utilizados?\n\nAções / Eventos / Entradas:\nQuais as ações executadas?\n\nResultado esperado:\n\nRESULTADO APURADO:\n\nDados da simulação:\n\nResultado apurado:\nQuais os resultados obtidos por meio da configuração e ações?",
       "titleBGColor": "#fff3e0",
       "bgColor": "#ffffff",
-      "linhas": 15
+      "linhas": 15,
+      "size": "400px"
     }
   ]
 }
