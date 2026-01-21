@@ -7,13 +7,22 @@
   "campos": [
     {
       "id": "produto",
-      "tipo": "text",
+      "tipo": "radio",
       "nome": "Produto",
       "obrigatorio": true,
       "descricao": "Informar o produto testado",
-      "placeholder": "Ex: Supermercados PDV (Linha Consinco) PDV",
+      "itens": [
+        "Supermercados PDV (Linha Consinco) PDV",
+        "Supermercados Retaguarda (Linha Consinco)",
+        "Monitor Consinco",
+        "Winthor",
+        "RMS",
+        "Outro"
+      ],
       "titleBGColor": "#e3f2fd",
-      "bgColor": "#ffffff"
+      "bgColor": "#ffffff",
+      "outroCampo": true,
+      "outroCampoPlaceholder": "Especifique o produto"
     },
     {
       "id": "versao",
@@ -55,13 +64,20 @@
     },
     {
       "id": "banco_dados",
-      "tipo": "text",
+      "tipo": "radio",
       "nome": "Banco de Dados",
       "obrigatorio": false,
       "descricao": "Informar o banco de dados utilizado para executar os testes",
-      "placeholder": "Ex: consincomonitor@QA",
+      "itens": [
+        "consincomonitor@QA",
+        "consincomonitor@HML",
+        "consincomonitor@PRD",
+        "Outro"
+      ],
       "titleBGColor": "#e3f2fd",
-      "bgColor": "#ffffff"
+      "bgColor": "#ffffff",
+      "outroCampo": true,
+      "outroCampoPlaceholder": "Especifique o banco de dados"
     },
     {
       "id": "tipo_testes",
