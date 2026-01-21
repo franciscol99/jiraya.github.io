@@ -76,7 +76,8 @@
         "Teste Performance"
       ],
       "titleBGColor": "#e3f2fd",
-      "bgColor": "#ffffff"
+      "bgColor": "#ffffff",
+      "outroCampo": true
     },
     {
       "id": "testes_realizados",
